@@ -1,1 +1,21 @@
-ewfavcawe
+"use strict" //when we use newer version of js
+
+// alert(3+3) we are using node.js
+
+console.log(3+3)
+//Code readibility ahould be high
+
+let name = "Harshit"
+let age = 18
+let isLoggedIn = false
+
+//bigint
+//string both '' and ""
+// boolean
+//null stand alone value and datatype 
+//undefined when variable is declared but no vlaue assigned
+//symbol used to find uniqueness
+
+//objects
+
+console.log(typeof("abc"));
