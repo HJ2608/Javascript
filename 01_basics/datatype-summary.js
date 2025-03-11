@@ -37,6 +37,36 @@ const myFunction = function(){
     
 }
 
-console.log(typeof id)
+//console.log(typeof id)
 // null ka typeof object
 // function ka return function
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory
+// Stack(Primitive) and Heap(Non-Primitive)
+
+let myYoutubeName = "hj"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+// dono ke andar alag value as copy banti h 
+
+let user = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = user
+userTwo.email = "abc"
+console.log(user);
+console.log(userTwo);
+// dono ke andar same value as heap mei reference milta h and dono same value ko point krte h
+
+
